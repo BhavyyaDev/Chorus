@@ -3,10 +3,6 @@ declare module '@cashfreepayments/cashfree-js' {
     mode: 'sandbox' | 'production';
   }
 
-  export interface CheckoutOptions {
-    paymentSessionId: string;
-    redirectTarget?: '_self' | '_blank' | '_top' | '_modal' | string;
-  }
 
   export interface CheckoutResult {
     error?: {
@@ -23,6 +19,16 @@ declare module '@cashfreepayments/cashfree-js' {
       paymentCurrency?: string;
     };
   }
+
+  export interface CheckoutOptions {
+    paymentSessionId: string;
+    redirectTarget?: '_self' | '_blank' | '_top' | '_modal' | string;
+  }
+
+
+
+
+
 
   export interface CashfreeInstance {
     checkout: (options: CheckoutOptions) => Promise<CheckoutResult>;
