@@ -4,7 +4,7 @@ import Footer from '../components/layout/Footer-1';
 
 export default function PrivacyPolicy() {
   return (
-    <>
+    <>    GIT_AUTHOR_DATE="2025-04-22 12:00:00" GIT_COMMITTER_DATE="2025-04-22 12:00:00" git commit -am "adding the fix for cashfree"
       <div className="min-h-screen bg-gray-50 py-8 text-neutral-900">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-lg shadow-sm p-8 md:p-12">
