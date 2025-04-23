@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+# Chorus
+
+Chorus is a modern web application designed to provide a seamless and engaging experience for its users. Built with React and Next.js, the project emphasizes modularity, scalability, and maintainability, making it suitable for both small and large-scale deployments.
+
+## Features
+
+- **Privacy Policy:** Transparent handling of user data, outlining collection, usage, and protection measures.
+- **Responsive Design:** Ensures optimal viewing and interaction across desktops, tablets, and mobile devices.
+- **Component-Based Architecture:** Utilizes reusable components for efficient development and consistent UI.
+- **Cookie Management:** Allows users to control cookie preferences and understand their usage.
+- **Contact & Support:** Multiple channels for users to reach out for corrections, feedback, or inquiries.
+- **Order & Payment Integration:** Secure and streamlined order processing with integrated payment solutions.
+- **Customizable UI:** Easily adaptable themes and layouts using Tailwind CSS.
+- **API Endpoints:** RESTful APIs for form submissions, payments, and order management.
+- **Accessibility:** Designed with accessibility best practices for inclusive user experiences.
+- **Performance Optimizations:** Fast load times and smooth navigation using Next.js features.
+- **Static Assets:** Organized public folder for images, videos, icons, and fonts.
+- **TypeScript Support:** Strong typing for safer and more maintainable code.
 
 ## Getting Started
 
-First, run the development server:
+1. **Clone the repository:**
+	```
+	git clone https://github.com/yourusername/chorus.git
+	```
+2. **Install dependencies:**
+	```
+	npm install
+	```
+3. **Run the development server:**
+	```
+	npm run dev
+	```
+4. **Build for production:**
+	```
+	npm run build
+	```
+5. **Lint and format code:**
+	```
+	npm run lint
+	npm run format
+	```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Folder Structure
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- `/src/app/` - Main application logic and pages
+- `/src/components/` - Reusable UI components
+- `/public/` - Static assets (images, videos, icons, fonts)
+- `/src/constants/` - Project-wide constants
+- `/src/context/` - React context providers (e.g., Cart)
+- `/src/types/` - TypeScript type definitions
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **React**
+- **Next.js**
+- **TypeScript**
+- **Tailwind CSS**
+- **Cashfree API** (for payment integration)
 
-## Learn More
+## Development & Deployment
 
-To learn more about Next.js, take a look at the following resources:
+- Local development uses hot-reloading for rapid iteration.
+- Easily deployable to platforms like Vercel or Netlify.
+- Environment variables managed via `.env` files (not committed).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contributions are welcome! Please fork the repository, create a feature branch, and submit a pull request. For major changes, open an issue first to discuss your ideas.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the MIT License.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Contact
+
+For support, feedback, or questions, email: team@chorus.co.in
+
+---
+
+*This README provides a summarized overview of the project, its features, and setup instructions without revealing sensitive or proprietary information.*
